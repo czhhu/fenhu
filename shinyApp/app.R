@@ -48,6 +48,4 @@ server <- function(input,output){
   )
 }
 shinyApp(ui=ui,server = server)
-getwd()
-setwd('C:/Users/chenz/Desktop')
-runApp(appDir ='shinyApp')
+
